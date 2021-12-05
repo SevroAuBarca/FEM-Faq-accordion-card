@@ -36,7 +36,7 @@
 }
 * .container .container_faq {
   width: 85%;
-  height: 90%;
+  height: 80%;
   margin: 0 auto;
   position: relative;
   bottom: 10%;
@@ -75,6 +75,11 @@
   font-size: 0.8rem;
   margin-bottom: 1rem;
   color: #787887;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 30px;
 }
 
 /*# sourceMappingURL=output.css.map */

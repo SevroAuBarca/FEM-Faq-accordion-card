@@ -49,7 +49,7 @@ $font: "Kumbh Sans", sans-serif;
     }
     .container_faq {
       width: 85%;
-      height: 90%;
+      height: 80%;
       margin: 0 auto;
       position: relative;
       bottom: 10%;
@@ -95,4 +95,9 @@ $font: "Kumbh Sans", sans-serif;
       }
     }
   }
+}
+
+.attribution {
+  position: absolute;
+  bottom: 30px;
 }
