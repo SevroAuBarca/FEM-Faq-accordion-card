@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+  --rot: 0deg;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+* html {
+  font-size: 62.5%;
+}
+* body {
+  background: linear-gradient(180deg, #af67e9 50%, #6565e7 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* .container {
+  width: 85%;
+  height: 70vh;
+  border-radius: 1rem;
+  background: #fff;
+  position: relative;
+}
+* .container .img {
+  position: relative;
+  margin: 0 auto;
+  top: -6.2rem;
+  width: 80%;
+  height: 25vh;
+  background: url("../images/illustration-woman-online-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: drop-shadow(0 30px 1px rgba(0, 0, 0, 0.1));
+}
+* .container .container_faq {
+  width: 85%;
+  height: 90%;
+  margin: 0 auto;
+  position: relative;
+  bottom: 10%;
+  overflow: hidden;
+}
+* .container .container_faq h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+* .container .container_faq details {
+  width: 100%;
+}
+* .container .container_faq details summary {
+  display: flex;
+  width: 100%;
+  height: 5vh;
+  margin-bottom: 2vh;
+  border-bottom: 1px solid #e7e7e9;
+  outline: none;
+  list-style: none;
+  color: #787887;
+}
+* .container .container_faq details summary::-webkit-details-marker {
+  display: none;
+}
+* .container .container_faq details summary h1 {
+  font-size: 0.8rem;
+  display: inline;
+}
+* .container .container_faq details summary figure {
+  display: inline;
+  margin-left: auto;
+}
+* .container .container_faq details p {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  color: #787887;
+}
+
+.arrow {
+  transform: rotate(var(--rot));
+}
+/*# sourceMappingURL=output.css.map */

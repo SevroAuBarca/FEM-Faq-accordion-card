@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+// vars
+$dark-desaturated-blue: hsl(238, 29%, 16%);
+$soft-red: hsl(14, 88%, 65%);
+$grad-soft-violet: hsl(273, 75%, 66%);
+$grad-soft-blue: hsl(240, 73%, 65%);
+$very-dark-grayish-blue: hsl(237, 12%, 33%);
+$dark-grayish-blue: hsl(240, 6%, 50%);
+$light-graiysh-blue: hsl(240, 5%, 91%);
+$font: "Kumbh Sans", sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $font;
+
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    background: linear-gradient(
+      180deg,
+      $grad-soft-violet 50%,
+      $grad-soft-blue 100%
+    );
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 85%;
+    height: 70vh;
+    border-radius: 1rem;
+    background: #fff;
+    position: relative;
+    .img {
+      position: relative;
+      margin: 0 auto;
+      top: -6.2rem;
+      width: 80%;
+      height: 25vh;
+      background: url("../images/illustration-woman-online-mobile.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      filter: drop-shadow(0 30px 1px rgba(0, 0, 0, 0.1));
+    }
+    .container_faq {
+      width: 85%;
+      height: 90%;
+      margin: 0 auto;
+      position: relative;
+      bottom: 10%;
+      overflow: hidden;
+      h1 {
+        text-align: center;
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+      }
+
+      details {
+        width: 100%;
+
+        summary {
+          display: flex;
+          width: 100%;
+          height: 5vh;
+          margin-bottom: 2vh;
+          border-bottom: 1px solid $light-graiysh-blue;
+          outline: none;
+          list-style: none;
+          color: $dark-grayish-blue;
+
+          &::-webkit-details-marker {
+            display: none;
+          }
+
+          h1 {
+            font-size: 0.8rem;
+            display: inline;
+          }
+
+          figure {
+            display: inline;
+            margin-left: auto;
+          }
+        }
+        p {
+          font-size: 0.8rem;
+          margin-bottom: 1rem;
+          color: $dark-grayish-blue;
+        }
+      }
+    }
+  }
+}
